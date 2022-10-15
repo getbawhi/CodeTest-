@@ -1,4 +1,4 @@
-//입력 및 출력 관련 정리
+//입력 및 출력 관련 정리_fgets
 
 #include <stdio.h>
 #include <string.h>
