@@ -6,7 +6,7 @@ int main() {
 	int num;
 	int a, b;
 	int result = 0;
-	
+	//scanf는 null문자와 whitespace를 무시하고 입력을 받음 
 	while (scanf("%d %d", &a, &b)!=EOF) // 입력이 끝날 때 까지!!
 	{
 		result = a + b;
