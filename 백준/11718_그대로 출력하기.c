@@ -9,7 +9,7 @@ int main(){
     char text[102];
     char c;
 
-    //fgets는 더 이상 읽을 데이터가 없으면 EOF를 리턴한다 
+    //fgets는 더 이상 읽을 데이터가 없으면 EOF를 리턴한다 !
     while(fgets(text,102,stdin)) //fgets(text,102,stdin)이 유지 될 때 까지 
     {    
         printf("%s", text);
